@@ -2,6 +2,34 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+
+
+/* My exercise CSS*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+#left-header, #right-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+}
+
+.header .links {
+  display: flex;
+  gap: 16px
+}
+
+.header ul {
+  padding: 0;
+}
+
+/* TOI CSS -: */
+
 body {
   margin: 0;
   background: #eee;
@@ -46,3 +74,5 @@ a {
 ul {
   list-style-type: none;
 }
+
+
